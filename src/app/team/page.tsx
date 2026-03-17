@@ -1,4 +1,4 @@
-import TeamAvatar from "../../../public/images/TeamAvatar";
+import TeamAvatar from "@/components/TeamAvatar";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
