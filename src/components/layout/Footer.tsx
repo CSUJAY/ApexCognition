@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const quickLinks = [
@@ -15,9 +16,15 @@ export default function Footer() {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {/* Company & Quick links */}
           <div>
-            <h3 className="text-lg font-semibold text-accent-bright">
-              Apex Cognition LLP
-            </h3>
+            <Link href="/" className="inline-block">
+              <Image
+                src="/images/CompanyLogo.png"
+                alt="Apex Cognition LLP"
+                width={120}
+                height={40}
+                className="h-10 w-auto object-contain"
+              />
+            </Link>
             <p className="mt-2 text-sm text-gray-300">
               Secure AI, Digital Transformation & IT Solutions
             </p>
