@@ -5,7 +5,6 @@ Place your image files here. The site expects:
 **Team (Our Team page):**
 - `Shreyas.jpg` – Shreyas (CEO)
 - `Sujay.jpg` – Sujay (CTO)
-- `Sebastian.jpg` – Sebastian (CMO)
 
 Use JPG, PNG, or WebP; if you use a different extension, update the `image` paths in `src/app/team/page.tsx`.
 

@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Our Team - Apex Cognition LLP",
   description:
-    "Meet the leadership team at Apex Cognition LLP: Shreyas (CEO), Sujay (CTO), and Sebastian (CMO).",
+    "Meet the leadership team at Apex Cognition LLP: Shreyas (CEO) and Sujay (CTO).",
 };
 
 const team = [
@@ -19,12 +19,6 @@ const team = [
     role: "CTO",
     image: "/images/Sujay.jpg",
     bio: "Driving technology, product, and innovation.",
-  },
-  {
-    name: "Sebastian",
-    role: "CMO",
-    image: "/images/Sebastian.jpg",
-    bio: "Shaping brand, growth, and market presence.",
   },
 ];
 
@@ -43,7 +37,7 @@ export default function TeamPage() {
           transformation.
         </p>
 
-        <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-16 grid gap-8 sm:grid-cols-2">
           {team.map((member) => (
             <article
               key={member.name}

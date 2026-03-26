@@ -42,7 +42,7 @@ export default function AboutPage() {
                 href="/team"
                 className="inline-flex items-center font-medium text-accent-bright hover:text-white"
               >
-                Meet our team: Shreyas (CEO), Sujay (CTO), Sebastian (CMO) →
+                Meet our team: Shreyas (CEO) and Sujay (CTO) →
               </Link>
             </p>
           </div>
